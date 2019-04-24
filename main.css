@@ -1,0 +1,84 @@
+body {
+  margin:0;
+  font-family: times new roman;
+}
+
+.main-header {
+  background-image: url(https://dewconstruction.com/wp-content/uploads/2018/10/802_Toyota_June_2013-1-1600x850.jpg);
+  height:500px;
+  background-size: cover;
+  text-align: center;
+}
+
+h2{
+  padding: 40px 0;
+  font-size: 41px;
+  text-align: center;
+}
+
+.main-header h1 {
+    margin-top: 0;
+    padding-top: 7%;
+    font-size:72px;
+}
+h1, h2  {
+  text-align: center;
+  text-transform: uppercase;
+}
+.car-grid{
+  display:grid;
+  grid-template: 250px/ 400px 400px 400px;
+  grid-gap:10px;
+}
+
+.car-grid div{
+  background-image: url("https://www.autoshowny.com/wp-content/uploads/2017/04/2018_bugatti_chiron-620x414.png");
+  background-position: 25% 25%;
+  background-size: cover;
+}
+  .grid-container{
+    text-align: center;
+}
+
+.main-button {
+  background: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+.main-button:hover {
+  background: darkred;
+}
+
+.info-grid {
+  display: inline-grid;
+  grid-template: 500px 500px/ 500px;
+  /* grid-gap: 15px; */
+}
+.info-grid div:nth-child(2) {
+    background-image: url("http://pluspng.com/img-png/png-salesman-independent-distributors-849.png");
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+
+#navbar {
+  padding-left: 5%;
+  position: fixed;
+  background: white;
+  width: 100%;
+  boarder-bottom: 1px solid #gray;
+}
+
+#navbar ul li{
+  display:inline;
+  padding: 0px 30px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color #333;
+}
