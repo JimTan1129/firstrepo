@@ -71,6 +71,7 @@ h1, h2  {
   background: white;
   width: 100%;
   boarder-bottom: 1px solid #gray;
+  color: #333;
 }
 
 #navbar ul li{
